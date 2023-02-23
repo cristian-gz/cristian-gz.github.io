@@ -18,7 +18,7 @@ body {
 	background-color: #4865b7;
   background-image: url("https://img.lovepik.com/background/20211021/medium/lovepik-blue-technology-internet-background-image_400135769.jpg");
 	background-size: cover;
-  opacity: .7;
+  opacity: .9;
   text-align: center;
   border:1px solid #555;     
 }
@@ -40,19 +40,23 @@ h2 {
 .foto {
 	grid-area: foto;
 	text-align: center;
-	background-color: #96cfcf;
+  background-color: #303030;
   border-left: 1px solid #555;
   border-top: 1px solid #555;
 	
 }
 .cara {
 	border-radius: 60%;
-	margin-top: 10px;
+  border-style: solid;
+  border-color: gray;
+	margin-top: 8px;
+  
+
 		
 }
 .nav { 
 	grid-area: nav;
-   background-color:#96cfcf;
+   background-color: #303030;
    border-right: 1px solid #555;
    border-left: 1px solid #555;
 }
@@ -67,7 +71,7 @@ h2 {
 
 #datos, #estudios, #experiencia, #redes {
    display: block;
-  color: #000;
+  color:white;
   padding: 8px 16px;
   text-decoration: none;
   user-select: none;
@@ -119,19 +123,19 @@ ul {
   margin-right: 10px;
   padding-right: 20px;
   margin-left: 25px;
-  text-align: justify;
+  
 }
 
 .experiencia {
   margin-right: 10px;
   padding-right: 20px;
   margin-left: 25px;
-  text-align: justify;
+  
 }
 
 .redes {
   font-size: 1.3em;
-  text-align: justify;
+  
 }
 
 .footer { 
@@ -241,6 +245,7 @@ a:hover {
 
 .redes {
   font-size: 1em;
+  margin-left: 0px;
 }
 
 #datos, #estudios, #experiencia, #redes {
