@@ -121,7 +121,8 @@ ul {
 .presentacion {
   margin-right: 10px;
   padding-right: 20px;
-  margin-left: 25px;
+  margin-left: 0px;
+  text-align: justify;
 }
 
 .estudios {
@@ -195,6 +196,9 @@ i {
 
 @media  screen and (max-width: 700px){
 
+p {
+  margin-left: 30px;
+}
 .arriba {
   display: initial;
 
