@@ -6,6 +6,7 @@ $(document).ready(function(){
     $(".experiencia").hide();
     $(".estudios").hide();
     $(".redes").hide();
+    $(".presentacion").hide();
   });
 
 
@@ -15,6 +16,7 @@ $(document).ready(function(){
     $(".datos").hide();
     $(".experiencia").hide();
     $(".redes").hide();
+    $(".presentacion").hide();
   });
 
 
@@ -24,6 +26,7 @@ $(document).ready(function(){
     $(".datos").hide();
     $(".estudios").hide();
     $(".redes").hide();
+    $(".presentacion").hide();
   });
 
 
@@ -34,6 +37,7 @@ $(document).ready(function(){
     $(".datos").hide();
     $(".estudios").hide();
     $(".experiencia").hide();
-  });
+    $(".presentacion").hide();
+  });  
 
 });

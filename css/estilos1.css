@@ -118,6 +118,11 @@ ul {
   font-family: 'Sen', sans-serif;
   margin-top: 0;
 }
+.presentacion {
+  margin-right: 10px;
+  padding-right: 20px;
+  margin-left: 25px;
+}
 
 .estudios {
   margin-right: 10px;
@@ -175,18 +180,25 @@ ul {
     color: white;
     
 }
+.arriba {
+  display: none;
+}
 	
 i {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-a:hover {
+.red:hover {
  	opacity: .5;
 }
 
 @media  screen and (max-width: 700px){
 
+.arriba {
+  display: initial;
+
+}
 .ul-1 {
 	position: relative;
 	width: auto;
