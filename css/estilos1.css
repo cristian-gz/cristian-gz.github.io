@@ -270,4 +270,9 @@ p {
   border-bottom: 1px solid #555;
 }
 }
+@media  screen and (max-width: 300px){
+  h2{
+    display: none;
+  }
+}
 
