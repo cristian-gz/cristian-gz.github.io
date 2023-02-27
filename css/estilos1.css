@@ -201,7 +201,9 @@ p {
 }
 .arriba {
   display: initial;
-
+  float: right;
+  font-size: 35px;
+  
 }
 .ul-1 {
 	position: relative;
